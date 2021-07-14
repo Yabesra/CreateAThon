@@ -1,0 +1,12 @@
+Post short answers to the following questions to the Responses section of your README/wiki.
+
+i.What is the difference between supervised and unsupervised learning?
+
+       Supervised learning teaches the model how to predict with a labeled(gives the data attributes,    features, and oberservations) training data. The labeling of data creates two groupd: Catagorical and Numeric Data set. Thus, the two form of supervised learning: classification and regression.
+    
+      Unsupervised learning has more difficult algorithms becuase we know very little about the data or outcome. Density, clussters and dementinality are the parts looked for in the unlabeled data. Thus using less tests and models, but we also lose control.
+
+ii.Describe why the following statement is FALSE: Scikit-Learn has the
+power to visualize data without a Graphviz, Pandas, or other data analysis libraries.
+
+Scikit is a framework while Graphviz and Panda are libraries. The difference between the two is that libraries are just a collection of differnt python packages that perfrom one task each. Although frameworks take thoes libraries(call on them) to perfrom complex operations, creating an algorithm of sorts to 
