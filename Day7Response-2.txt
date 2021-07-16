@@ -1,0 +1,6 @@
+1.What are “Tensors” and what are they used for in Machine Learning? 
+Tensors map out the relationship between vectors, other tensors, etc. This helps us create the nureal networks within the machine learnig process.
+
+2.What did you notice about the computations that you ran in the TensorFlow programs (i.e. interactive models) in the tutorial?
+
+Tensorflow has had made a lot of updates so I feel like I am constantly searching up errors or watching videos on tensorflow. Although thanks to my mentor, I have been able to focus on one version of tensor flow(1.4.0) so it hasn't been bad. Reading the information from the tensorflow data is another experience if I am being honest. Although I have been able to read it better when I code it cause I can understand the various attibutes and the values associated with them.
