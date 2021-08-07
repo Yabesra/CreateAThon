@@ -3,6 +3,11 @@
 ## Mentor : Dorethee Grant 💯
 ## Name: Yabesra Ewnetu
 
+[![Actions Status](https://github.com/github/linguist/workflows/Run%20Tests/badge.svg)](https://github.com/Yabesra/CreateAThon)
+
+[issues]: https://github.com/Yabesra/CreateAThon
+[new-issue]: https://github.com/Yabesra/CreateAThon
+
 ### Day 1
 Introductions: Today I learned how to use Jupyter Notbook and Github for teh first time. It's exhilarating to see code running. I can't wait to see what I learn in the upcoming 6 weeks!
 ### Day 2. 
@@ -31,5 +36,5 @@ https://www.linkedin.com/in/yabesra-ewnetu-3595b1212/
 <br />
 
 ## Language and Tools
-[<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][webdevplaylist]
-[<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][webdevplaylist]
+[<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />]
+[<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />]
