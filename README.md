@@ -78,8 +78,9 @@ Write a reflection piece on the advantages of the Rectified Linear activation fu
 The rectified linear activation function or ReLU is an activation function that helps Nueral Networks when tresnforming the summed weighted inout between nodes or between output and input.The ReLU is a peicewise function that will wokr when poisitves, otherwise it gives us a zero. Thos means we can easily backpropagate errors and train multiple layers of nuerons. On top of which it is much simpler than sigmoid and takes less energy for computers to do. A zero output lets for little amount of neurons to work making the network sparse and efficitent. Not to mention, ReLU learns much faster than Sigmoid and Tanh. the only issue is the higher the learning rate, the higher chance of neurons dying(menaing they only put out 0s at that point). This means its best to use a v ariotion of ReLU.
 A one time use of ReLU might be when you have one hidden function or when using it for simply math equations.
 
-<br>
+
 ### More to Come 
+<br>
 😄 Keep Reading to Get a better understanding of my work so far
 
 ## Statistics
