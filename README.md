@@ -68,15 +68,16 @@ Day 11 Response:
 ###### Fully Connected NN
 <br>
 A Fully Connected NN creates layers which help every neruron(or node) connect to the other nuerons(or nodes) on the other layers. The ability to perform problem-specific transformattion can be powerful which helps prevent a lot of human biases and increase inerpretability. This means its easier to make informed decisions and easier to debug the machine learning models. Additionaly, the “structure agnostic”means there is no special assumptions needed to be made about the input. Just to go into the structuer, there is both a single layer which has a single hidden layer or a nulti layer sustem with multiple hidden layers. Comining in both a Feed Forward and Recurrent Network. Fully Connected NN are amazing especially when it comes to decision making(creating solutions), the realitve ease becuase it mimicks a brain. Although this comes with a price, regularziation of the data so we need dropouts, overfitting models so small batches have to be used, weight regularization so using penalties is crucial, etc.
-<br>
+
 ###### CNN
 <br>
 Now CNNs are great for speech and image analysis. In more technical terms it takes matrix multplication with the pixel valus of a vaiorus images and filters them. This allows them to creat assumpations with imput images. A simple tupe includes a convolution layer, pooling layer, and a fully connected layer. While a more complex one includes convalutionRelu Layer + Pooling layer twice then a fully connected layer(ie a dense layer) and output layer, the kernal can move from left to right calculating in a asingle value at a time. This allows for image recognition or creation, classification, segmentation, and even auto correlated dat. The issues or drwabacks is that the don't know how to organize(which direction to send) information which leads to a loss of internal data so the can overload a single neuron(stress out the system). Which leads to an inability to acatually get the work done, which makes debugging hard. Even with fault tolerance and ability to work on incomplete knowledge, they can have erratic behaviors.
-<br> 
+ 
 ### Day 15
 Write a reflection piece on the advantages of the Rectified Linear activation function, along with one use case. Share your reflection in the Responses section of your README.
 The rectified linear activation function or ReLU is an activation function that helps Nueral Networks when tresnforming the summed weighted inout between nodes or between output and input.The ReLU is a peicewise function that will wokr when poisitves, otherwise it gives us a zero. Thos means we can easily backpropagate errors and train multiple layers of nuerons. On top of which it is much simpler than sigmoid and takes less energy for computers to do. A zero output lets for little amount of neurons to work making the network sparse and efficitent. Not to mention, ReLU learns much faster than Sigmoid and Tanh. the only issue is the higher the learning rate, the higher chance of neurons dying(menaing they only put out 0s at that point). This means its best to use a v ariotion of ReLU.
 A one time use of ReLU might be when you have one hidden function or when using it for simply math equations.
+
 <br>
 ### More to Come 
 😄 Keep Reading to Get a better understanding of my work so far
