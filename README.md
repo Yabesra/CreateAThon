@@ -14,6 +14,68 @@ Introductions: Today I learned how to use Jupyter Notbook and Github for teh fir
 My Refection on Dr. David Kong:
 A story has to hit three points: Choice, Challenge, OUtcome and some outlining moral lesson. To take a personal story and make it a collective story, this creating a relatiable story. Within a sorty is it important to be specific, vivid, and clear to the listener. This can be done by being vulnerable and sharing the emotions that motivated a certain action. I really loved the quote form the lass from Maimondies-"Hope is a belief in the plausibility of possiable as opposed to the necessitu pf the probable."As a Leader, to rally up the voices of the people we/they work with, it is up to us to guide the reader through the story in order to get them on our page. A good story teller can tap into their vulnerbility and emotions, becuase when we put down our barriers, others do the same for us")
 
+### Day 3 
+i.What is the difference between supervised and unsupervised learning?
+
+       Supervised learning teaches the model how to predict with a labeled(gives the data attributes,    features, and oberservations) training data. The labeling of data creates two groupd: Catagorical and Numeric Data set. Thus, the two form of supervised learning: classification and regression.
+    
+      Unsupervised learning has more difficult algorithms becuase we know very little about the data or outcome. Density, clussters and dementinality are the parts looked for in the unlabeled data. Thus using less tests and models, but we also lose control.
+
+ii.Describe why the following statement is FALSE: Scikit-Learn has the
+power to visualize data without a Graphviz, Pandas, or other data analysis libraries.
+
+Scikit is a framework while Graphviz and Panda are libraries. The difference between the two is that libraries are just a collection of differnt python packages that perfrom one task each. Although frameworks take thoes libraries(call on them) to perfrom complex operations, creating an algorithm of sorts to 
+
+### Day 4
+
+[https://www.kaggle.com/mirbektoktogaraev/should-this-loan-be-approved-or-denied|LINK]
+https://www.pewresearch.org/fact-tank/2014/12/12/racial-wealth-gaps-great-recession/ 
+https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/bcfp_hmda_2017-mortgage-market- activity-trends_report.pdf
+
+Action Item:
+Think about a real-world problem and see if you can find a dataset that has the characteristics of the data of that problem. Then, think about the deep learning algorithm that you would likely use to develop a solution to it. Outline why you picked a particular approach.
+
+Share the dataset you found and your reasons in the Responses section of your README.
+Share links with your mentor on your Localized team channel. 
+
+
+I would have love to see discreponcies between home owners and gender, or names, or citizenship, or amount of childern or marital stautus had an effect on home loan approval. Since home owner information isn't publically avaliable, I looked at home owner approval on the basis of race. With machine learning(or AI algorithms) now being able to decide whether or not to approve a home loan, they have less responsibility when it comes to their decision making. Thus, allowing companies to not approve a canidate without any reasoning.
+
+Now looking at the various data sets and analysziations, we can see on average people who tend to make more have lower intreast(loan) rates on their loans and are more likely to get home loans. With Asain Families having the most home loans(pews research) while Black Families have the least amount of loans and highest intreast rates. It could be the result of perceived sterotypes about both groups thus causing loans to be handeled differntly so I have a suggestion. Loan applications shouldn't ask for the race of the loaner. Now this may not solve anything becuase names can be pretty identifiable as well so not including gender, so not including gender and name will also help the loaner make decisions based on other factors.
+
+### Day 7
+1.What are “Tensors” and what are they used for in Machine Learning? 
+Tensors map out the relationship between vectors, other tensors, etc. This helps us create the nureal networks within the machine learnig process.
+
+2.What did you notice about the computations that you ran in the TensorFlow programs (i.e. interactive models) in the tutorial?
+
+Tensorflow has had made a lot of updates so I feel like I am constantly searching up errors or watching videos on tensorflow. Although thanks to my mentor, I have been able to focus on one version of tensor flow(1.4.0) so it hasn't been bad. Reading the information from the tensorflow data is another experience if I am being honest. Although I have been able to read it better when I code it cause I can understand the various attibutes and the values associated with them.
+
+### Day 10
+1.How do you think Machine Learning or AI concepts were utilized in the design of this game?
+This is a very good example of unsupervised learning machine learning AI game becuase the dataset's decision were heavely effected by finding the patterns within previous human made decisions. Now it was intentional that the dataset was havely orange prior to the data set being given to the computer to ensure that the bias was there, even if unintentional. This shift from heavly blue to a more mixed set of data and pre-existing, unintentional bias caused the company to lose an amazing possible employee. Emily, was a perfect canidate for the job, but the computer let her go, while letting in more less experienced or educated or people with less ambitions purly because they were orange. Now I have learned that The sampling process of the data collection must be free of biases or else it will prevent people from getting the job or the healthcare purely for incorrect training. One possible way might be to remove such attributes when working with data that could cause unecessay patterns.
+<br>
+2.Can you give a real-world example of a biased machine learning model, and share your ideas on how you make this model more fair, inclusive, and equitable? Please reflect on why you selected this specific biased model.
+https://www.technologyreview.com/2019/01/21/137783/algorithms-criminal-justice-ai
+POC make 13 precent of the population, while making 50 precent of the prison population. On average, they are imporsioned and lation men for much longer times then any other race or possible gender. These decisions are based of the many sterotypes associated with the groups. This means that there is already a horrible track record, so the data is already biased. Introducing that data to an AI to choose whether or not someone is more likely to commit a crime or how long they should stay in prison is going to be hurt by the preset biases in the data. On top of which, due to it being AI and so new, many prisoners struggle to appeal the decision of the court. How can that be, they are hurt by preset biases that they may not even know are there or understand how it works and have to struggle to appeal that decisions purely due to limited human knowledge. That is both unfair, unethical, and more likely unconstitutional. THERE NEEDS TO BE A CHANGE
+
+### Day 11
+Day 11 Response:
+1.Succinctly list the differences between a Convolutional Neural Network and a Fully Connected Neural Network. Discuss layers and their role, and applications of each of the two types of architectures in the Responses section of your README. Share the link with your mentor on your Localized team channel.
+Fully Connected NN
+<br>
+A Fully Connected NN creates layers which help every neruron(or node) connect to the other nuerons(or nodes) on the other layers. The ability to perform problem-specific transformattion can be powerful which helps prevent a lot of human biases and increase inerpretability. This means its easier to make informed decisions and easier to debug the machine learning models. Additionaly, the “structure agnostic”means there is no special assumptions needed to be made about the input. Just to go into the structuer, there is both a single layer which has a single hidden layer or a nulti layer sustem with multiple hidden layers. Comining in both a Feed Forward and Recurrent Network. Fully Connected NN are amazing especially when it comes to decision making(creating solutions), the realitve ease becuase it mimicks a brain. Although this comes with a price, regularziation of the data so we need dropouts, overfitting models so small batches have to be used, weight regularization so using penalties is crucial, etc.
+CNN
+<br>
+Now CNNs are great for speech and image analysis. In more technical terms it takes matrix multplication with the pixel valus of a vaiorus images and filters them. This allows them to creat assumpations with imput images. A simple tupe includes a convolution layer, pooling layer, and a fully connected layer. While a more complex one includes convalutionRelu Layer + Pooling layer twice then a fully connected layer(ie a dense layer) and output layer, the kernal can move from left to right calculating in a asingle value at a time. This allows for image recognition or creation, classification, segmentation, and even auto correlated dat. The issues or drwabacks is that the don't know how to organize(which direction to send) information which leads to a loss of internal data so the can overload a single neuron(stress out the system). Which leads to an inability to acatually get the work done, which makes debugging hard. Even with fault tolerance and ability to work on incomplete knowledge, they can have erratic behaviors.
+### Day 15
+Write a reflection piece on the advantages of the Rectified Linear activation function, along with one use case. Share your reflection in the Responses section of your README.
+The rectified linear activation function or ReLU is an activation function that helps Nueral Networks when tresnforming the summed weighted inout between nodes or between output and input.The ReLU is a peicewise function that will wokr when poisitves, otherwise it gives us a zero. Thos means we can easily backpropagate errors and train multiple layers of nuerons. On top of which it is much simpler than sigmoid and takes less energy for computers to do. A zero output lets for little amount of neurons to work making the network sparse and efficitent. Not to mention, ReLU learns much faster than Sigmoid and Tanh. the only issue is the higher the learning rate, the higher chance of neurons dying(menaing they only put out 0s at that point). This means its best to use a v ariotion of ReLU.
+A one time use of ReLU might be when you have one hidden function or when using it for simply math equations.
+### More to Come 
+
+😄 Keep Reading to Get a better understanding of my work so far
+
 ## Statistics
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Yabesra&show_icons=true&theme=tokyonight)
 <br>
