@@ -62,10 +62,10 @@ POC make 13 precent of the population, while making 50 precent of the prison pop
 ### Day 11
 Day 11 Response:
 1.Succinctly list the differences between a Convolutional Neural Network and a Fully Connected Neural Network. Discuss layers and their role, and applications of each of the two types of architectures in the Responses section of your README. Share the link with your mentor on your Localized team channel.
-Fully Connected NN
+###### Fully Connected NN
 <br>
 A Fully Connected NN creates layers which help every neruron(or node) connect to the other nuerons(or nodes) on the other layers. The ability to perform problem-specific transformattion can be powerful which helps prevent a lot of human biases and increase inerpretability. This means its easier to make informed decisions and easier to debug the machine learning models. Additionaly, the “structure agnostic”means there is no special assumptions needed to be made about the input. Just to go into the structuer, there is both a single layer which has a single hidden layer or a nulti layer sustem with multiple hidden layers. Comining in both a Feed Forward and Recurrent Network. Fully Connected NN are amazing especially when it comes to decision making(creating solutions), the realitve ease becuase it mimicks a brain. Although this comes with a price, regularziation of the data so we need dropouts, overfitting models so small batches have to be used, weight regularization so using penalties is crucial, etc.
-CNN
+###### CNN
 <br>
 Now CNNs are great for speech and image analysis. In more technical terms it takes matrix multplication with the pixel valus of a vaiorus images and filters them. This allows them to creat assumpations with imput images. A simple tupe includes a convolution layer, pooling layer, and a fully connected layer. While a more complex one includes convalutionRelu Layer + Pooling layer twice then a fully connected layer(ie a dense layer) and output layer, the kernal can move from left to right calculating in a asingle value at a time. This allows for image recognition or creation, classification, segmentation, and even auto correlated dat. The issues or drwabacks is that the don't know how to organize(which direction to send) information which leads to a loss of internal data so the can overload a single neuron(stress out the system). Which leads to an inability to acatually get the work done, which makes debugging hard. Even with fault tolerance and ability to work on incomplete knowledge, they can have erratic behaviors.
 ### Day 15
