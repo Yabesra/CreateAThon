@@ -30,7 +30,7 @@ Scikit is a framework while Graphviz and Panda are libraries. The difference bet
 
 [https://www.kaggle.com/mirbektoktogaraev/should-this-loan-be-approved-or-denied|LINK]
 https://www.pewresearch.org/fact-tank/2014/12/12/racial-wealth-gaps-great-recession/ 
-https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/bcfp_hmda_2017-mortgage-market- activity-trends_report.pdf
+https://s3.amazonaws.com/files.consumerfinance.gov/f/documents/bcfp_hmda_2017-mortgage-market-
 
 Action Item:
 Think about a real-world problem and see if you can find a dataset that has the characteristics of the data of that problem. Then, think about the deep learning algorithm that you would likely use to develop a solution to it. Outline why you picked a particular approach.
