@@ -79,19 +79,31 @@ The rectified linear activation function or ReLU is an activation function that 
 A one time use of ReLU might be when you have one hidden function or when using it for simply math equations.
 
 ## Day 18
-Also, add your observations while changing the loss to regression based functions from the housing prices model to the README. Share the links with your mentor on your Localized team channel.
+
+Also, add your observations while changing the loss to regression based functions from the housing prices model.
+
+The loss function documents how well the model can perfrom(predict) given a set of datasets which was around 70% althought regression based fuctions tell us the relationship between that caused a data peice. Just looking at the model it is clear to see that the switch helped the model with acccuracy becuase teh regression based functions were more taliored(or showed the average of the data). Just looking at the two graphs in commparision, the loss funciton semmed to have some overfitting as well so it was really useful to use the regression based funcitons!
+
 ------------------
 Ethical Reflection: In this article, author A. Venkateswaran writes that overfitting deep learning models can be “detrimental to society”. Can you think of one way that an overfit model can be detrimental?
-A model that learns the training dataset too well that it can only work for that specific model becomes useless. With such a low bias and high varience, it can be a wonder as to how the model got any value when used on other datasets
+
+A model that learns the training dataset too well that it can only work for that specific model becomes useless. With such a low bias and high varience, it can be a wonder as to how the model got any value when used on other datasets. The models move themselves to accommodat the noise and random oberservations in the training data causings the model to make random predictions/decisions given any other dataset. This can cuase many issues when its applied to the hiring process, the medical processies, etc. 
 
 -----------------
 # Day 22
-comment on how the model was performing, and possible applications of Affective Computing.
+Comment on how the model was performing, and possible applications of Affective Computing:
+
+I don't have a finished model although when it comes to affective computing, we are seeing an evolution that humans made eons ago, registering human body language. No matter how we might want the appliances in our homes to understand the stress or joy or sadness we're going through, it really can't. Or if someone is auistic and can't really understand human emotions, it allows them the ability to see and better understand someone. This evolution in computing will allow fridges to help us waste time from constatnly checking them or speakes to play music based off of our emotions, etc. The possibilities are limitless!
 
 ##Day 23
 
-Write a reflection piece on the ethical implications of big NLP models such as GPT-2 and add it to your Responses section.
------------------
+Some ethical implications of NLP Models:
+link to an amazing source: https://people.cs.umass.edu/~brenocon/cs490a_f20/lectures/21-ethics-nlp-blodgett.pdf
+
+-Biasd repersenation especially with profession(ex: an ai assuming a female nurse or a male doctor)
+-Understanding the toxicity of the word: caused be a person who has repurposed it or is using it to hurt a community
+-AI recruiting tool is discriminatory against females based off of companies bias
+-Loss of pricvacy becuase Alexa was being used in a murder investigation. Why? ALEXA can (and does) record your private conversations at home meaning the police can try to understand how a man died in his bathtub. Although this means their is a loss of privacy.
 
 
 ### More to Come 
