@@ -78,6 +78,21 @@ Write a reflection piece on the advantages of the Rectified Linear activation fu
 The rectified linear activation function or ReLU is an activation function that helps Nueral Networks when tresnforming the summed weighted inout between nodes or between output and input.The ReLU is a peicewise function that will wokr when poisitves, otherwise it gives us a zero. Thos means we can easily backpropagate errors and train multiple layers of nuerons. On top of which it is much simpler than sigmoid and takes less energy for computers to do. A zero output lets for little amount of neurons to work making the network sparse and efficitent. Not to mention, ReLU learns much faster than Sigmoid and Tanh. the only issue is the higher the learning rate, the higher chance of neurons dying(menaing they only put out 0s at that point). This means its best to use a v ariotion of ReLU.
 A one time use of ReLU might be when you have one hidden function or when using it for simply math equations.
 
+## Day 18
+Also, add your observations while changing the loss to regression based functions from the housing prices model to the README. Share the links with your mentor on your Localized team channel.
+------------------
+Ethical Reflection: In this article, author A. Venkateswaran writes that overfitting deep learning models can be “detrimental to society”. Can you think of one way that an overfit model can be detrimental?
+A model that learns the training dataset too well that it can only work for that specific model becomes useless. With such a low bias and high varience, it can be a wonder as to how the model got any value when used on other datasets
+
+-----------------
+# Day 22
+comment on how the model was performing, and possible applications of Affective Computing.
+
+##Day 23
+
+Write a reflection piece on the ethical implications of big NLP models such as GPT-2 and add it to your Responses section.
+-----------------
+
 
 ### More to Come 
 <br>
